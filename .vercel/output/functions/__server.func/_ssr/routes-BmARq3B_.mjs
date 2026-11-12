@@ -1,6 +1,6 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { K as require_react, b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-Bt5CVtxv.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BmARq3B_.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var DEFAULT_URL = "https://drive.google.com/file/d/1jtetatjWTRW-JWj1YJkHJP77fXZLd-vh/view?usp=drive_link";
@@ -35,7 +35,7 @@ function Home() {
 				className: "flex flex-wrap items-center justify-between gap-3",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-sm text-chrome-fg/80",
-					children: "Scenario Installer 1.0.6 — the window players see on Windows. Linux uses the same steps in the console."
+					children: "Scenario Installer 1.0.7 — the window players see on Windows. Linux uses the same steps in the console."
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex rounded-md border border-line/40 bg-chrome p-0.5 text-sm",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
@@ -338,7 +338,7 @@ function WindowsWindow() {
 				className: "flex h-9 shrink-0 items-center justify-between bg-chrome px-3 text-sm text-chrome-fg",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 					className: "truncate font-medium",
-					children: ["Scenario Installer 1.0.6", testMode ? "   [TEST MODE]" : ""]
+					children: ["Scenario Installer 1.0.7", testMode ? "   [TEST MODE]" : ""]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 					className: "flex gap-1.5",
 					"aria-hidden": "true",
@@ -725,7 +725,7 @@ function LinuxConsole() {
 	const [ran, setRan] = (0, import_react.useState)(null);
 	const draft = [
 		"$ ./Install-Scenario.sh",
-		"Scenario Installer 1.0.6  (console — no window on Linux)",
+		"Scenario Installer 1.0.7  (console — no window on Linux)",
 		"Looking for Steam and Empyrion...",
 		"Steam library: /home/you/.steam/steam",
 		"Found Game: /home/you/.steam/steam/steamapps/common/Empyrion - Galactic Survival",

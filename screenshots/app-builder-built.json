@@ -8,8 +8,8 @@
       "title": "Scenario Installer",
       "hasCanvas": false,
       "bodyTextLen": 2183,
-      "bodyTextHash": "4d041ddf558d0514966eb45976079638b284a22314a48369d7a14d5e4f8cca22",
-      "bodyTextPrefix": "Scenario Installer 1.0.6 — the window players see on Windows. Li",
+      "bodyTextHash": "f99468da04c83b94e4a7997555fe6fab43bdfd4330ba3e523dddf43051497f6f",
+      "bodyTextPrefix": "Scenario Installer 1.0.7 — the window players see on Windows. Li",
       "horizontalOverflow": false,
       "consoleErrors": [],
       "pageErrors": [],
@@ -22,8 +22,8 @@
       "title": "Scenario Installer",
       "hasCanvas": false,
       "bodyTextLen": 2183,
-      "bodyTextHash": "4d041ddf558d0514966eb45976079638b284a22314a48369d7a14d5e4f8cca22",
-      "bodyTextPrefix": "Scenario Installer 1.0.6 — the window players see on Windows. Li",
+      "bodyTextHash": "f99468da04c83b94e4a7997555fe6fab43bdfd4330ba3e523dddf43051497f6f",
+      "bodyTextPrefix": "Scenario Installer 1.0.7 — the window players see on Windows. Li",
       "horizontalOverflow": false,
       "consoleErrors": [],
       "pageErrors": [],
@@ -33,6 +33,9 @@
   "brandWarnings": [],
   "authWarnings": [],
   "verdictFile": "/workspace/screenshots/app-builder-built.json",
-  "divergesFromBaseline": false,
-  "baselineReasons": []
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
 }
